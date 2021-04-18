@@ -1,21 +1,20 @@
 # easy-bash-killer
-Bash script to terminate a process with generic naming on windows machines.
+Bash script to terminate a process with generic naming on windows and linux machines machines.
 
-This is designed to simplify the command to kill a process. Instead using of taskkill and remembering the image name / PID you can now just use a generic value which you can customise to your preference.
+This is designed to simplify the command to kill a process. Instead using of taskkill/pkill and remembering the application specifics you can now just use a generic value which you can customise to your preference.
 
 ## Examples
 ```
-sh /path/to/file/killer.sh
+bash /path/to/file/killer.sh
 
-sh /path/to/file/killer.sh appName
+bash /path/to/file/killer.sh appName
 ```
 
 Or alternatively...
 
 ```
-alias killer = "sh /path/to/file/killer.sh"
+alias killer = "bash /path/to/file/killer.sh"
 
 killer appName
 ```
 
-Note: only tested on git bash
