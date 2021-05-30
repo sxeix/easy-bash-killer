@@ -20,6 +20,7 @@ declare -A PROCESSES
 PROCESSES=(
 	["firefox"]="firefox-esr"
 	["vs"]="code"
+    ["chrome"]="chrome"
 )
 
 INPUT="$1"
